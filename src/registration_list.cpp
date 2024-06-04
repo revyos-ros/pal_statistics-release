@@ -207,7 +207,7 @@ void RegistrationList::deleteElement(size_t index)
   ids_.resize(ids_.size() - 1);
   std::swap(references_[index], references_.back());
   references_.resize(references_.size() - 1);
-  std::vector<bool>::swap(enabled_[index], enabled_.back());
+  std::swap(enabled_[index], enabled_.back());
   enabled_.resize(enabled_.size() - 1);
 
   registrationsChanged();
