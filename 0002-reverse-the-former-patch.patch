@@ -1,0 +1,39 @@
+From e33a0e62ecaf4bf4f5d48aa91d97bcfd6872f365 Mon Sep 17 00:00:00 2001
+From: Sakura286 <sakura286@outlook.com>
+Date: Tue, 4 Jun 2024 17:08:55 +0800
+Subject: [PATCH 2/2] reverse the former patch
+
+---
+ debian/patches/001-strict-type-for-swap.patch | 11 -----------
+ debian/patches/series                         |  1 -
+ 2 files changed, 12 deletions(-)
+ delete mode 100644 debian/patches/001-strict-type-for-swap.patch
+ delete mode 100644 debian/patches/series
+
+diff --git a/debian/patches/001-strict-type-for-swap.patch b/debian/patches/001-strict-type-for-swap.patch
+deleted file mode 100644
+index f9f8ef6..0000000
+--- a/debian/patches/001-strict-type-for-swap.patch
++++ /dev/null
+@@ -1,11 +0,0 @@
+---- a/src/registration_list.cpp
+-+++ b/src/registration_list.cpp
+-@@ -207,7 +207,7 @@
+-   ids_.resize(ids_.size() - 1);
+-   std::swap(references_[index], references_.back());
+-   references_.resize(references_.size() - 1);
+--  std::swap(enabled_[index], enabled_.back());
+-+  std::vector<bool>::swap(enabled_[index], enabled_.back());
+-   enabled_.resize(enabled_.size() - 1);
+- 
+-   registrationsChanged();
+diff --git a/debian/patches/series b/debian/patches/series
+deleted file mode 100644
+index 49e65e3..0000000
+--- a/debian/patches/series
++++ /dev/null
+@@ -1 +0,0 @@
+-001-strict-type-for-swap.patch
+-- 
+2.34.1
+
