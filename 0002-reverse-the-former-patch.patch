@@ -1,7 +1,7 @@
-From e33a0e62ecaf4bf4f5d48aa91d97bcfd6872f365 Mon Sep 17 00:00:00 2001
+From 09fd1705514b73756178a4a82195b3080dda6cee Mon Sep 17 00:00:00 2001
 From: Sakura286 <sakura286@outlook.com>
 Date: Tue, 4 Jun 2024 17:08:55 +0800
-Subject: [PATCH 2/2] reverse the former patch
+Subject: [PATCH 2/3] reverse the former patch
 
 ---
  debian/patches/001-strict-type-for-swap.patch | 11 -----------
