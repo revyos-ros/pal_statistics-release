@@ -1,7 +1,7 @@
-From 37daf9d1e56a3ca1c59e790ecd4657e5a5a36135 Mon Sep 17 00:00:00 2001
+From b86d1fc65a74850323587ef84b1d34d3b2f2f21e Mon Sep 17 00:00:00 2001
 From: Sakura286 <sakura286@outlook.com>
-Date: Tue, 4 Jun 2024 17:08:55 +0800
-Subject: [PATCH 2/4] reverse the former patch
+Date: Thu, 6 Jun 2024 19:17:15 +0800
+Subject: [PATCH 4/4] remove uneeded patch
 
 ---
  debian/patches/001-strict-type-for-swap.patch | 11 -----------

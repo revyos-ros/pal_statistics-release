@@ -1,7 +1,7 @@
-From 4a09d707cf25161f9916b2a1c55629bc06fedd93 Mon Sep 17 00:00:00 2001
+From a089906fe3bde59d4d4392259400f3bdec57bcdd Mon Sep 17 00:00:00 2001
 From: Sakura286 <sakura286@outlook.com>
 Date: Tue, 4 Jun 2024 16:55:43 +0800
-Subject: [PATCH 1/3] strict swap type to std::vector<bool>
+Subject: [PATCH 1/4] strict swap type to std::vector<bool>
 
 ---
  debian/patches/001-strict-type-for-swap.patch | 11 +++++++++++

@@ -1,7 +1,7 @@
-From 4fbecb567520fb85eb695b131c063cfada35cce5 Mon Sep 17 00:00:00 2001
+From 3594ad4a9c6741c1eb2939075ec9fb7d78ee7a13 Mon Sep 17 00:00:00 2001
 From: Sakura286 <sakura286@outlook.com>
 Date: Tue, 4 Jun 2024 17:32:09 +0800
-Subject: [PATCH 3/3] readd the former patch
+Subject: [PATCH 3/4] readd the former patch
 
 ---
  debian/patches/001-strict-type-for-swap.patch | 11 +++++++++++
