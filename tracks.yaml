@@ -62,10 +62,10 @@ tracks:
     - git-bloom-generate -y rosdebian --prefix release/:{ros_distro} :{ros_distro}
       -i :{release_inc} --os-name debian
     devel_branch: humble-devel
-    last_version: 2.2.4
+    last_version: 2.3.1
     name: upstream
     patches: null
-    release_inc: '2'
+    release_inc: '1'
     release_repo_url: git@github.com:revyos-ros/pal_statistics-release.git
     release_tag: :{version}
     ros_distro: humble
