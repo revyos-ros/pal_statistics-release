@@ -1,4 +1,4 @@
-From b86d1fc65a74850323587ef84b1d34d3b2f2f21e Mon Sep 17 00:00:00 2001
+From cee47bad55323e0e511bea6f3efb4069e4159561 Mon Sep 17 00:00:00 2001
 From: Sakura286 <sakura286@outlook.com>
 Date: Thu, 6 Jun 2024 19:17:15 +0800
 Subject: [PATCH 4/4] remove uneeded patch
@@ -35,5 +35,5 @@ index 49e65e3..0000000
 @@ -1 +0,0 @@
 -001-strict-type-for-swap.patch
 -- 
-2.34.1
+2.45.2
 

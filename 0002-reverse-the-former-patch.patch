@@ -1,4 +1,4 @@
-From 37daf9d1e56a3ca1c59e790ecd4657e5a5a36135 Mon Sep 17 00:00:00 2001
+From c48304213f66d0f0ef2a7390bd576449f05d50ed Mon Sep 17 00:00:00 2001
 From: Sakura286 <sakura286@outlook.com>
 Date: Tue, 4 Jun 2024 17:08:55 +0800
 Subject: [PATCH 2/4] reverse the former patch
@@ -35,5 +35,5 @@ index 49e65e3..0000000
 @@ -1 +0,0 @@
 -001-strict-type-for-swap.patch
 -- 
-2.34.1
+2.45.2
 
