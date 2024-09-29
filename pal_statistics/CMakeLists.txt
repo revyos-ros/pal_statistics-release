@@ -20,11 +20,17 @@ if(BUILD_TESTING)
 
   ament_add_gmock(pal_statistics-test test/gtest_pal_statistics.cpp
     TIMEOUT 180)
+
   target_include_directories(
     pal_statistics-test PRIVATE src) # dirty hack for a forward declaration
   target_link_libraries(pal_statistics-test ${PROJECT_NAME})
 
-  # TODO python migration add_rostest(test/pal_statistics_py.test)
+  # Add pal_statistics_py.test
+  ament_add_pytest_test(pal_statistics_pytest test/test_pal_statistics.py)
 endif()
+
+
+# Install Python modules
+ament_python_install_package(${PROJECT_NAME})
 
 ament_auto_package()
