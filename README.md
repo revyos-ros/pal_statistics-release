@@ -1,3 +1,28 @@
+## pal_statistics (jazzy) - 2.6.0-1
+
+The packages in the `pal_statistics` repository were released into the `jazzy` distro by running `/home/z572/gits/revyos-ros/venv2/bin/bloom-release -r jazzy pal_statistics --override-release-repository-push-url git@github.com:revyos-ros/pal_statistics-release.git` on `Thu, 19 Dec 2024 06:01:43 -0000`
+
+These packages were released:
+- `pal_statistics`
+- `pal_statistics_msgs`
+
+Version of package(s) in repository `pal_statistics`:
+
+- upstream repository: https://github.com/pal-robotics/pal_statistics.git
+- release repository: https://github.com/revyos-ros/pal_statistics-release.git
+- rosdistro version: `2.6.0-1`
+- old version: `2.3.1-1`
+- new version: `2.6.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## pal_statistics (humble) - 2.6.0-1
 
 The packages in the `pal_statistics` repository were released into the `humble` distro by running `/home/z572/gits/revyos-ros/venv2/bin/bloom-release -r humble pal_statistics --override-release-repository-push-url git@github.com:revyos-ros/pal_statistics-release.git` on `Sun, 15 Dec 2024 05:51:09 -0000`
