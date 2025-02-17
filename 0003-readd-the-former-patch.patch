@@ -1,4 +1,4 @@
-From 8d8352ec46568c5a198600970bf3fdd19b3208af Mon Sep 17 00:00:00 2001
+From 379d11cba2e93e280ec02a94fc7552733779389c Mon Sep 17 00:00:00 2001
 From: Sakura286 <sakura286@outlook.com>
 Date: Tue, 4 Jun 2024 17:32:09 +0800
 Subject: [PATCH 3/4] readd the former patch
@@ -35,5 +35,5 @@ index 0000000..49e65e3
 @@ -0,0 +1 @@
 +001-strict-type-for-swap.patch
 -- 
-2.46.0
+2.47.1
 
